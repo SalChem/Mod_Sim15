@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ReadingMyocarditis" >
+
+<ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+              <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/myocarditisleadi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Is inflammation of heart muscle (myocardium). Myocarditis is most often due to infection by common viruses, such as parvovirus B19, less commonly nonviral pathogens such as Borrelia burgdorferi (Lyme disease) or Trypanosoma cruzi, or as a hypersensitivity response to drugs. The definition of myocarditis varies, but the central feature is an infection of the heart, with an inflammatory infiltrate, and damage to the heart muscle, without the blockage of coronary arteries that define a heart attack (myocardial infarction) or other common noninfectious causes. Myocarditis may or may not include death (necrosis) of heart tissue. It may include dilated cardiomyopathy. Myocarditis is often an autoimmune reaction. Streptococcal M protein and coxsackievirus B have regions (epitopes) that are immunologically similar to cardiac myosin. During and after the viral infection, the immune system may attack cardiac myosin. Because a definitive diagnosis requires a heart biopsy, which doctors are reluctant to do because they are invasive, statistics on the incidence of myocarditis vary widely. The consequences of myocarditis thus also vary widely. It can cause a mild disease without any symptoms that resolves itself, or it may cause chest pain, heart failure, or sudden death. An acute myocardial infarction-like syndrome with normal coronary arteries has a good prognosis. Heart failure, even with dilated left ventricle, may have a good prognosis. Ventricular arrhythmias and high-degree heart block have a poor prognosis. Loss of right ventricular function is a strong predictor of death." />
+      
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>

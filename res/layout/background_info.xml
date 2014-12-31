@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BackgroundInfo"
+    android:orientation="vertical" >
+
+     <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+              <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ecgleads" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Cardiovascular disease CVD or heart disease is a class of diseases that involve the heart, the blood vessels, or both. CVD refers to any disease that affects the cardiovascular system principally cardiac disease, vascular diseases of the brain and kidney, and peripheral arterial disease. The causes of CVD are diverse but atherosclerosis and or hypertension are the most common [1].
+CVD is the leading cause of death and the number one health issue in the U.S., with an estimated 13 of American adults suffering from one or more types of CVD [2]. It can cause an increase in risk for heart attack, heart failure, sudden death, stroke and cardiac rhythm problems, thus resulting in decreased quality of life and decreased life expectancy. The outlooks are becoming worse, with a projection that 40.5 of Americans, or roughly 116 million people, will have some form of CVD by the year 2030. 
+" />
+      
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="The economic burden associated with diagnosis and treatment of CVD exceeds $503 billion annually in the U.S. alone. With this, the accurate and timely diagnosis of complex heart diseases is crucial. An estimate of the heart's electrical behavior can be obtained from electrocardiograms (ECGs), derived by measuring body surface potentials, which are routinely used for cardiac diagnosis [3]. 
+Vital symptoms of the life-threatening cardiac disorders, such as arrhythmia, can be deduced from careful study of patients’ ECGs [3]. Listening to the heart's lub-dub sounds using a stethoscope may provide valuable information about the heart rhythm and valve abnormalities. Healthcare professionals and students, through repetitive practice in a carefree environment, may hone such diagnostic skills. Changing the way today's healthcare professionals are being educated through the introduction of new technologies and training technique is essential to producing the best outcomes in terms of patient care. Simulators and other healthcare tools are an important component in the education of healthcare professionals." />
+     
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="[1] American Heart Association. What is Cardiovascular Disease (Heart Disease)? 2013. Retrieved from:
+ http://www.heart.org/HEARTORG/Caregiver/Resources/WhatisCardiovascularDisease/What-is-Cardiovascular-Disease_UCM_301852_Article.jsp" />
+    
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="[2] Cardiovascular Disease Foundation. Retrieved from: http://www.cvdf.org/ " />
+     
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="[3] National Heart, Lung, and Blood Institute. What is an Electrocardiogram? 2013. Retrieved from: http://www.nhlbi.nih.gov/health/health-topics/topics/ekg/" />
+     
+         </LinearLayout>
+     </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heart Patient Simulator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_graph">GraphActivity</string>
+    <string name="title_activity_group_study">GroupStudy</string>
+    <string name="title_activity_self_study">SelfStudy</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="title_activity_about_heart_disorders">AboutHeartDisorders</string>
+    <string name="title_activity_intent">Intent</string>
+    <string name="title_activity_reading_normal">ReadingNormal</string>
+    <string name="title_activity_reading_arythmmia">ReadingArythmmia</string>
+    <string name="title_activity_bluetooth">Bluetooth</string>
+    <string name="title_activity_background_info">BackgroundInfo</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_graph_test">GraphTest</string>
+    <string name="title_activity_healthy">Healthy</string>
+    <string name="title_activity_hypertrophy">Hypertrophy</string>
+    <string name="title_activity_arrhythmia">Arrhythmia</string>
+    <string name="title_activity_bundle_branch_block_lead">BundleBranchBlockLead</string>
+    <string name="title_activity_bundle_branch_block">BundleBranchBlock</string>
+    <string name="title_activity_cardiomyopathy">Cardiomyopathy</string>
+    <string name="title_activity_dysrhythmia">Dysrhythmia</string>
+    <string name="title_activity_myocarditis">Myocarditis</string>
+    <string name="title_activity_unstable_angina">UnstableAngina</string>
+    <string name="title_activity_valvular_heart_disease">ValvularHeartDisease</string>
+    <string name="title_activity_ventricular_tachycardia">VentricularTachycardia</string>
+
+
+    <string name="title_activity_reading_cardiomyopathy">ReadingCardiomyopathy</string>
+    <string name="title_activity_reading_ventricular_fibrillation">ReadingVentricularFibrillation</string>
+    <string name="title_activity_reading_atrial_fibrillation">ReadingAtrialFibrillation</string>
+    <string name="title_activity_reading_hypertrophy">ReadingHypertrophy</string>
+    <string name="title_activity_reading_myocardial_infraction">ReadingMyocardialInfraction</string>
+    <string name="title_activity_reading_myocarditis">ReadingMyocarditis</string>
+    <string name="title_activity_reading_unstable_angina">ReadingUnstableAngina</string>
+    <string name="title_activity_reading_valvular_heart_disease">ReadingValvularHeartDisease</string>
+    <string name="title_activity_reading_ventricular_tachycardia">ReadingVentricularTachycardia</string>
+
+</resources>

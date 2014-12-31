@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.heartpatientsimulator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.heartpatientsimulator.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.GraphActivity"
+            android:label="@string/title_activity_graph" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.Reading"
+            android:label="Self Study" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.Intent"
+            android:label="@string/title_activity_intent" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingHealthy"
+            android:label="Healthy" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingBundleBranchBlock"
+            android:label="Bundle Branch Block" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.Bluetooth"
+            android:label="@string/title_activity_bluetooth" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.BackgroundInfo"
+            android:label="Background Info" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.SelfStudy"
+            android:label="Self Study" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.MyocardialInfarction"
+            android:label="Myocardial Infarction"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.Healthy"
+            android:label="@string/title_activity_healthy"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.Hypertrophy"
+            android:label="@string/title_activity_hypertrophy"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.AtrialFibrillation"
+            android:label="Atrial Fibrillation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.BundleBranchBlock"
+            android:label="Bundle Branch Block"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.Cardiomyopathy"
+            android:label="@string/title_activity_cardiomyopathy"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.VentricularFibrillation"
+            android:label="Ventricular Fibrillation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.Myocarditis"
+            android:label="@string/title_activity_myocarditis"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.UnstableAngina"
+            android:label="Unstable Angina"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ValvularHeartDisease"
+            android:label="Valvular Heart Disease"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.VentricularTachycardia"
+            android:label="Ventricular Tachycardia"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingCardiomyopathy"
+            android:label="Cardiomyopathy" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingVentricularFibrillation"
+            android:label="Ventricular Fibrillation" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingAtrialFibrillation"
+            android:label="Atrial Fibrillation" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingHypertrophy"
+            android:label="Hypertrophy" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingMyocardialInfarction"
+            android:label="Myocardial Infarction" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingMyocarditis"
+            android:label="Myocarditis" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingUnstableAngina"
+            android:label="Unstable Angina" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingValvularHeartDisease"
+            android:label="Valvular Heart Disease" >
+        </activity>
+        <activity
+            android:name="com.example.heartpatientsimulator.ReadingVentricularTachycardia"
+            android:label="Ventricular Tachycardia" >
+        </activity>
+    </application>
+
+</manifest>

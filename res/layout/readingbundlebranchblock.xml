@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ReadingBundleBranchBlock" >
+
+<ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+              <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/bundlebranchblockleadi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="When a bundle branch or fascicle becomes injured (by underlying heart disease, myocardial infarction, or cardiac surgery), it may cease to conduct electrical impulses appropriately. This results in altered pathways for ventricular depolarization. Since the electrical impulse can no longer use the preferred pathway across the bundle branch, it may move instead through muscle fibers in a way that both slows the electrical movement and changes the directional propagation of the impulses. As a result, there is a loss of ventricular synchrony, ventricular depolarization is prolonged, and there may be a corresponding drop in cardiac output. When heart failure is present, a specialized pacemaker may be used to resynchronize the ventricles. In theory a pacemaker like this will shorten the QRS interval, thus bringing the timing of contraction of the left and right ventricles closer together and slightly increasing the Ejection Fraction." />
+     
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>
+   

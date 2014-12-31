@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ReadingCardiomyopathy" >
+
+<ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+              <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cardiomyopathyleadi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Is the measurable deterioration of the function of the myocardium (the heart muscle) for any reason, usually leading to heart failure; common symptoms are dyspnea (breathlessness) and peripheral edema (swelling of the legs). People with cardiomyopathy are often at risk of dangerous forms of irregular heart beat and sudden cardiac death. The most common form of cardiomyopathy is dilated cardiomyopathy. Symptoms and signs may mimic those of almost any form of heart disease. Chest pain is common. Mild myocarditis or cardiomyopathy is frequently asymptomatic; severe cases are associated with heart failure, arrhythmias, and systemic embolization. Manifestations of the underlying disease (e.g., Chagas' disease) may be prominent. Most patients with biopsy-proven myocarditis report a recent viral prodrome preceding cardiovascular symptoms." />
+      
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>

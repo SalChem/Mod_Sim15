@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ReadingVentricularFibrillation" >
+
+   <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+              <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ventricularfibrillationleadi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Is a condition in which there is uncoordinated contraction of the cardiac muscle of the ventricles in the heart, making them quiver rather than contract properly. Ventricular fibrillation is the most commonly identified arrhythmia in cardiac arrest patients. While there is some activity, the lay person is usually unable to detect it by palpating (feeling) the major pulse points of the carotid and femoral arteries. Such an arrhythmia is only confirmed by electrocardiography. Ventricular fibrillation is a medical emergency that requires prompt Advanced Life Support interventions. If this arrhythmia continues for more than a few seconds, it will likely degenerate further into asystole (flatline). This condition results in cardiogenic shock and cessation of effective blood circulation. As a consequence, sudden cardiac death (SCD) will result in a matter of minutes. If the patient is not revived after a sufficient period (within roughly 5 minutes at room temperature), the patient could sustain irreversible brain damage and possibly become brain-dead, due to the effects of cerebral hypoxia. On the other hand, death often occurs if sinus rhythm is not restored within 90 seconds of the onset of VF, especially if it has degenerated further into asystole." />
+      
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>

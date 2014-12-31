@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ReadingUnstableAngina" >
+
+   <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+              <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/unstableanginaleadi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Is a type of angina pectoris that is irregular. It is also classified as a type of acute coronary syndrome. It can be difficult to distinguish unstable angina from non–Q-wave myocardial infarction. Nitroglycerin can be used immediately to widen the coronary arteries and help increase blood flow to the heart. In addition, nitroglycerin causes peripheral venous and artery dilation reducing cardiac preload and afterload. These reductions allow for decrease myocardial oxygen demand. Antiplatelet drugs such as aspirin and clopidogrel can help reduce the progression of plaque formation, as well as combining these with an anticoagulant such as a low molecular weight heparin. " />
+      
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>
+

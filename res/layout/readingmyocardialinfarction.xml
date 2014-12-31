@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ReadingMyocardialInfarction" >
+
+ <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+              <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/myocardialinfarctionleadi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Is the medical term for an event commonly known as a heart attack. It happens when blood stops flowing properly to part of the heart and the heart muscle is injured due to not receiving enough oxygen. Usually this is because one of the coronary arteries that supplies blood to the heart develops a blockage due to an unstable buildup of white blood cells, cholesterol and fat. The event is called acute if it is sudden and serious. A person having an acute MI usually has sudden chest pain that is felt behind the breast bone and sometimes travels to the left arm or the left side of the neck. Additionally, the person may have shortness of breath, sweating, nausea, vomiting, abnormal heartbeats, and anxiety. Women experience fewer of these symptoms than men, but usually have shortness of breath, weakness, a feeling of indigestion, and fatigue. In many cases, in some estimates as high as 64%, the person does not have chest pain or other symptoms. These are called silent myocardial infarctions." />
+      
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ReadingVentricularTachycardia" >
+
+ <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+              <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ventriculartachycardialeadi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Is a type of tachycardia, or a rapid heart beat, that starts in the bottom chambers of the heart, called the ventricles. The ventricles are the main pumping chambers of the heart. This is a potentially life-threatening arrhythmia because it may lead to ventricular fibrillation, asystole, and sudden death. is a type of tachycardia, or a rapid heart beat, that starts in the bottom chambers of the heart, called the ventricles. The ventricles are the main pumping chambers of the heart. This is a potentially life-threatening arrhythmia because it may lead to ventricular fibrillation, asystole, and sudden death." />
+      
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>
